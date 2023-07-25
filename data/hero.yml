@@ -1,0 +1,9 @@
+enable: true
+# background_image: "images/hero.jpg"
+heading: "Will you be able to afford the retirement you want?"
+# insert stat about how people are concerned with how much they'll retire with
+tagline: "stat"
+primary_button: "What will my return be?"
+primary_button_url: "superannuation-calculator"
+secondary_button: "Could I contribute more?"
+secondary_button_url: "budget"

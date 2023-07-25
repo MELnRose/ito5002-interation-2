@@ -19,6 +19,6 @@ theme = 'roxo-hugo'
         url = 'budget'
         weight = 3
     [[menu.nav]]
-        name = 'Infomration'
+        name = 'Information'
         url = 'information'
         weight = 4
