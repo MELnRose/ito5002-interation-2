@@ -8,6 +8,7 @@
 - [ ] Footer
 - [x] Get content to display on all pages
 - [ ] Embed Tableau element
+- [ ] Decide on name for site
 
 
 # Image src
