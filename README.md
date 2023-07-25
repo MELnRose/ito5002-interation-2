@@ -4,10 +4,11 @@
 # To Do
 - [x] Implement partials to make a somewhat working hompage
 - [ ] Create element to redirect to information
-- [ ] Fix naviagtion - not dispalying all menu items
+- [x] Fix naviagtion - not dispalying all menu items
 - [ ] Footer
-- [ ] Get content to display on all pages
+- [x] Get content to display on all pages
+- [ ] Embed Tableau element
 
 
 # Image src
-hero.jpg <a herf="https://www.pexels.com/photo/brunette-relaxing-with-rose-on-chair-15781480/"\>
+[hero.jpg](https://www.pexels.com/photo/brunette-relaxing-with-rose-on-chair-15781480/)
