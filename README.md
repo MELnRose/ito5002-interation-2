@@ -1,3 +1,6 @@
+# To run
+`hugo serve` in terminal within directory ito5002-project
+
 # To Do
 - [x] Implement partials to make a somewhat working hompage
 - [ ] Create element to redirect to information
