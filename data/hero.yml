@@ -1,5 +1,5 @@
 enable: true
-# background_image: "images/hero.jpg"
+background_image: "images/hero.jpg"
 heading: "Will you be able to afford the retirement you want?"
 # insert stat about how people are concerned with how much they'll retire with
 tagline: "stat"
