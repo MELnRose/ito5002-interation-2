@@ -1,9 +1,9 @@
 # To Do
-[x] Implement partials to make a somewhat working hompage
-[] Create element to redirect to information
-[] Fix naviagtion - not dispalying all menu items
-[] Footer
-[] Get content to display on all pages
+- [x] Implement partials to make a somewhat working hompage
+- [ ] Create element to redirect to information
+- [ ] Fix naviagtion - not dispalying all menu items
+- [ ] Footer
+- [ ] Get content to display on all pages
 
 
 # Image src
