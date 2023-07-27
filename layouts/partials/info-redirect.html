@@ -1,7 +1,22 @@
-<section class="" >
-    <div class="container">
-        <div class="row">
-            
-        </div>
-    </div>
-</section>
+{{ with .Site.Data.home_info }}
+    {{ if .enable }}
+        <section class="info-redirect">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="info-redirect-information">
+                        <p>{{ .content }}</p>
+                    </div>
+                    <div class="info-redirect-button">
+                        <a href="{{ .button_url | absURL }}" class="btn btn-primary">
+                            <span class="btn-area">
+                                <span data-text="{{ .button_label }}">
+                                {{ .button_label }}
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {{ end }}
+{{ end }}
