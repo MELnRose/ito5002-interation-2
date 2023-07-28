@@ -1,0 +1,8 @@
+enable: true
+test: "testing"
+ref_items:
+  - text: "refernence 1"
+    link: "https://gohugo.io"
+  
+  - text: "referenece 2" 
+    link: ""

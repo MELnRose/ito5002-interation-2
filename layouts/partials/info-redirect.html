@@ -1,19 +1,19 @@
 {{ with .Site.Data.home_info }}
     {{ if .enable }}
-        <section class="info-redirect">
+        <section class="site-cta">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="info-redirect-information">
-                        <p>{{ .content }}</p>
-                    </div>
-                    <div class="info-redirect-button">
-                        <a href="{{ .button_url | absURL }}" class="btn btn-primary">
-                            <span class="btn-area">
-                                <span data-text="{{ .button_label }}">
-                                {{ .button_label }}
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p> {{ .content }}</p>
+                        <ul class="site-cta-buttons">
+                            <a href="{{ .button_url | absURL }}" class="btn btn-primary">
+                                <span class="btn-area">
+                                    <span data-text="{{ .button_label }}">
+                                    {{ .button_label }}
+                                    </span>
                                 </span>
-                            </span>
-                        </a>
+                            </a>
+                        </ul>
                     </div>
                 </div>
             </div>

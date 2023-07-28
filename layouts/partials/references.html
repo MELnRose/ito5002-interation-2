@@ -1,0 +1,20 @@
+{{ if .enable }}
+    <section class="references">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ol>
+                    {{ range .ref_items }}
+                        <li>
+                            <a href="{{ .link }}" class="references-link">
+                                {{ .text }}
+                            </a>
+                        </li>
+                    {{ end }}
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{{ end }}

@@ -10,7 +10,7 @@
 - [x] Get content to display on all pages
 - [x] ~~Embed Tableau element~~
 - [x] Decide on name for site
-- [ ] Create partial for page references
+- [x] Create partial for page references
 - [ ] Create partial for disclaimers
 
 # Image src
