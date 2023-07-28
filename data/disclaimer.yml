@@ -1,0 +1,6 @@
+enable: true
+title: "Disclaimer"
+disclaimer_items:
+  - text: "This is not fincial advise"
+
+  - text: "Seek a fincial advisor"

@@ -11,7 +11,7 @@
 - [x] ~~Embed Tableau element~~
 - [x] Decide on name for site
 - [x] Create partial for page references
-- [ ] Create partial for disclaimers
+- [x] Create partial for disclaimers
 - [ ] Embed R shiny app
 
 # Image src
