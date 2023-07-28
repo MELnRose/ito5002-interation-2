@@ -1,4 +1,9 @@
+[submodule "roxo-hugo"]
+	path = roxo-hugo
+	url = https://github.com/StaticMania/roxo-hugo.git
 [submodule "themes/roxo-hugo"]
 	path = themes/roxo-hugo
 	url = https://github.com/StaticMania/roxo-hugo.git
-
+[submodule "layouts/shortcodes"]
+	path = layouts/shortcodes
+	url = https://gist.github.com/de089f99c3543e2a16f8f24fee4d958e.git
