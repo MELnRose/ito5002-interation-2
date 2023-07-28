@@ -12,6 +12,7 @@
 - [x] Decide on name for site
 - [x] Create partial for page references
 - [ ] Create partial for disclaimers
+- [ ] Embed R shiny app
 
 # Image src
 [hero.jpg](https://www.pexels.com/photo/brunette-relaxing-with-rose-on-chair-15781480/)
