@@ -1,0 +1,4 @@
+enable: true
+title: "Disclaimer"
+disclaimer_items:
+  - text: "This tool is intended as a model. Fees and returns may change in the future which would impact the outcome. This is not individual advice, for tailored financial advice please speak to a qualified professional"

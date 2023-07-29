@@ -11,14 +11,14 @@ theme = 'roxo-hugo'
         url = ''
         weight = 1
     [[menu.nav]]
-        name = 'Superannauation Calculator'
+        name = 'Superannuation Calculator'
         url = 'superannuation-calculator'
         weight = 2
     [[menu.nav]]
-        name = 'Budget'
+        name = 'Budgeting'
         url = 'budget'
         weight = 3
     [[menu.nav]]
-        name = 'Information'
-        url = 'information'
+        name = 'Resources'
+        url = 'resources'
         weight = 4

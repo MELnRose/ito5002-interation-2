@@ -1,10 +1,10 @@
 enable: true
 background_image: "images/hero.jpg"
-heading: "Will you be able to afford the retirement you want?"
+heading: "Can you afford retirment?"
 # edit stat down
-tagline: "Research shows 21% of working Australians ‘are not confident’ they will have enough retirement savings for their desired standard of living."
+tagline: "21% of Australians are not confident they will have enough in super"
 ref: '1'
-primary_button: "What will my return be?"
+primary_button: "What will my super be?"
 primary_button_url: "superannuation-calculator"
 secondary_button: "Could I contribute more?"
 secondary_button_url: "budget"

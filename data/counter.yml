@@ -1,5 +1,5 @@
 enable: true
-heading: "Amount you need for retiement standards"
+heading: "How much do you need?"
 ref: '2'
 counter_item:
   - title: "Comfortable Lifestyle (Couple)"
@@ -8,6 +8,6 @@ counter_item:
   - title: "Compfortable Lifestyle (Single)"
     number: "$595,000"
 
-  - title: "Modeset Lifestyle"
+  - title: "Modeset Lifestyle (Couple/Single)"
     number: "$100,000"
 
