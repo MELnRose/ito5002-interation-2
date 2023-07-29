@@ -1,14 +1,13 @@
 enable: true
-heading: "Key Statistics"
+heading: "Amount you need for retiement standards"
+ref: '2'
 counter_item:
-  - title: "Stat 1"
-    number: "25%"
+  - title: "Comfortable Lifestyle (Couple)"
+    number: "$690,000"
 
-  - title: "Stat 2"
-    number: "50%"
+  - title: "Compfortable Lifestyle (Single)"
+    number: "$595,000"
 
-  - title: "Stat 3"
-    number: "75%"
+  - title: "Modeset Lifestyle"
+    number: "$100,000"
 
-  - title: "Stat 4"
-    number: '100%'

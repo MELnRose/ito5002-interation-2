@@ -2,7 +2,8 @@ enable: true
 background_image: "images/hero.jpg"
 heading: "Will you be able to afford the retirement you want?"
 # edit stat down
-tagline: "Research shows 21% of working Australians ‘are not confident’ they will have enough retirement savings for their desired standard of living (AMP, 2022)."
+tagline: "Research shows 21% of working Australians ‘are not confident’ they will have enough retirement savings for their desired standard of living."
+ref: '1'
 primary_button: "What will my return be?"
 primary_button_url: "superannuation-calculator"
 secondary_button: "Could I contribute more?"

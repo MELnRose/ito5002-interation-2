@@ -1,4 +1,4 @@
 enable: true
 content: "TESTING TESTING"
-button_label: "to information"
+button_label: "Find out more"
 button_url: '/information'
