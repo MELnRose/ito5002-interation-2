@@ -28,6 +28,10 @@
         line-height: 28px;
         margin-bottom: 0;
       }
+
+      &-list{
+        text-align: left;
+      }
     }
     &-pagination{
       @extend .site-project-pagination;

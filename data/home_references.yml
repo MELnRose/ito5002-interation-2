@@ -1,8 +1,8 @@
 enable: true
 test: "testing"
 ref_items:
-  - text: "Easing the pressure: The AMP 2022 Financial Wellness report (2022)."
-    link: "https://www.amp.com.au/content/dam/amp-au/documents/financial-hub/Financial-Wellness-2022.pdf"
+  - text: "Taxation statistics 2019-20: Median super balance by age and sex. "
+    link: "https://data.gov.au/data/dataset/taxation-statistics-2019-20/resource/7fbad034-e1ad-43fe-a67a-893fe59be13e?inner_span=True"
   
   - text: "The Association of Superannuation Funds of Australia Retirement Standard Explainer (2023)." 
     link: "https://www.superannuation.asn.au/ArticleDocuments/269/ASFA-Retirement_Standard-Summary-2023.pdf.aspx?Embed=Y"

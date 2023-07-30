@@ -1,7 +1,7 @@
 ---
 title: "Budget"
 date: 2023-07-21T14:31:38+10:00
-description: "this is the budget"
+description: "Use this tool to compare your spending against the average Australian."
 ---
 
-{{< shinyapps "https://gallery.shinyapps.io/050-kmeans-example/" 1050 >}}
+{{< shinyapps "https://amret.shinyapps.io/BudgetTool/" 1000 >}}

@@ -1,5 +1,14 @@
 {{ define "main" }}
-{{ partial "site-blog-header.html" . }}
+
+{{ partial "super-header.html" .Site.Data.super_header }}
+
+<section class="site-super">
+    <div class="container">
+        <row class="row justify-content-center">
+            {{ .Content }}
+        </row>
+    </div>
+</section>
 
 {{ partial "disclaimer.html" .Site.Data.super_disclaimer }}
 

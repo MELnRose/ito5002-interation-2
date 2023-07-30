@@ -10,7 +10,7 @@
                 <ul>
                 {{ range .disclaimer_items }}
                     <li>
-                        {{ .text }}
+                        {{ .text | markdownify }}
                     </li>
                 {{end}}
                 </ul>

@@ -1,0 +1,17 @@
+<section class="site-blog-header">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h1>{{ .Title }}</h1>
+          <p>
+            {{ .description }}
+          </p>
+          <ol class="site-blog-header-list">
+            {{ range .step_items }}
+            <li>{{ .text | markdownify }}</li>
+            {{ end }}
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>

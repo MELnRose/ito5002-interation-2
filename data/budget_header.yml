@@ -1,0 +1,8 @@
+Title: "Budgeting"
+description: "Use this tool to compare your spending against the average Australian."
+step_items:
+  - text: "Select your household type in the dropdown menus"
+
+  - text: "Enter the approximate amount you spend **weekly** in each expense category"
+
+  - text: "Click 'Compare my spending' to see how you compare to the average Australian for your household type"
