@@ -15,7 +15,7 @@
 - [x] Embed R shiny app
 - [ ] Add shiny app sources
     - [x] budget
-    - [ ] super calc 
+    - [x] super calc 
 - [ ] Information page
 
 # Image src

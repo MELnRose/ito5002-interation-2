@@ -1,8 +1,8 @@
 enable: true
 background_image: "images/hero.jpg"
-heading: "Can you afford retirment?"
+heading: "Can you afford retirement?"
 # edit stat down
-tagline: "On average women approaching retirement have 22% less superannuation than men."
+tagline: "Women approaching retirement have an average of 23.1% less superannuation than men."
 ref: '1'
 primary_button: "What will my super be?"
 primary_button_url: "superannuation-calculator"
