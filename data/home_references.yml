@@ -1,7 +1,6 @@
 enable: true
-test: "testing"
 ref_items:
-  - text: "Taxation statistics 2019-20: Median super balance by age and sex. "
+  - text: "Taxation statistics 2019-20: Median super balance by age and sex."
     link: "https://data.gov.au/data/dataset/taxation-statistics-2019-20/resource/7fbad034-e1ad-43fe-a67a-893fe59be13e?inner_span=True"
   
   - text: "The Association of Superannuation Funds of Australia Retirement Standard Explainer (2023)." 

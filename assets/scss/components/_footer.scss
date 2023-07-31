@@ -6,6 +6,9 @@
     @include mobile{
       text-align: center;
     }
+    a{
+      text-decoration: none;
+    }
   }
   &-widget{
     @include desktop{
@@ -77,5 +80,8 @@
         margin-bottom: 70px;
       }
     }
+  }
+  .logo{
+    color: $white;
   }
 }

@@ -1,25 +1,12 @@
+{{ with .Site.Data.footer }}
 <footer class="site-footer">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="site-footer-logo"><a href="{{ .Site.BaseURL }}"><p>{{ .Site.Params.title }}</p></a></div>
+        <div class="site-footer-logo"><a href="{{ .Site.BaseURL }}"><h4 class="logo">SuperWoman</h4></a></div>
       </div>
-      {{ with .Site.Params.footer.contactInfo }}
+      {{ with .sitemap }}
       <div class="col-lg-3 col-md-6">
-        <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">{{ .title }}</h5>
-          <p class="site-footer-widget-description">
-            {{ .address | safeHTML }}
-            <br>
-            <a href="tel:{{ .phone }}">{{ .phone }}</a>
-            <br>
-            <a href="mailto:{{ .email }}">{{ .email }}</a>
-          </p>
-        </div>
-      </div>
-      {{ end }}
-      {{ with .Site.Params.footer.sitemap }}
-      <div class="col-lg-2 col-md-6">
         <div class="site-footer-widget">
           <h5 class="site-footer-widget-title">{{ .title }}</h5>
           <ul class="site-footer-widget-links">
@@ -30,20 +17,8 @@
         </div>
       </div>
       {{ end }}
-      {{ with .Site.Params.footer.social }}
-      <div class="col-lg-2 col-md-6">
-        <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">{{ .title }}</h5>
-          <ul class="site-footer-widget-links">
-            {{ range .link }}
-              <li><a href="{{ .url }}">{{ .name }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-      {{ end }}
-      {{ with .Site.Params.footer.service }}
-      <div class="col-lg-3 col-md-6">
+      {{ with .service }}
+      <div class="col-lg-4 col-md-6">
         <div class="site-footer-widget">
           <h5 class="site-footer-widget-title">{{ .title }}</h5>
           <p class="site-footer-widget-description">
@@ -52,6 +27,7 @@
         </div>
       </div>
       {{ end }}
+      <div class="col-lg-3 col-md-6"></div>
       <div class="col-lg-2 col-12">
         <a href="#top" class="site-footer-widget-top">
           <img src="{{ "images/to-top.svg" | absURL }}" alt="back-to-top">
@@ -77,3 +53,5 @@
 <script src="{{ $vendor.Permalink }}"></script>
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>
+
+{{ end }}

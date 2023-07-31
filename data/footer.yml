@@ -1,0 +1,15 @@
+sitemap: 
+  title: "Sitemap"
+  link:
+    - name: "Superannuation Calculator"
+      url: "superannuation-calculator"
+
+    - name: "Budgeting"
+      url: "budget"
+
+    - name: "Resources"
+      url: "resources"
+
+service:
+  title: "Here to inform you"
+  description: "project you super<br>see your expendature<br>understand retirement"
