@@ -16,7 +16,7 @@
 - [x] Add shiny app sources
     - [x] budget
     - [x] super calc 
-- [ ] Information page
+- [x] Information page
     - [ ] modify partial site-expertise
 
 # Image src
