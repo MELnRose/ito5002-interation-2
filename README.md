@@ -9,7 +9,7 @@
 - [ ] Disclaimer update
 - [ ] Add Content Security Policy
 - [ ] Add updated budgeting tool
-- [ ] Add update super calc
+- [ ] Add updated super calc
 - [x] Fix find out more button
 
 # Image src
