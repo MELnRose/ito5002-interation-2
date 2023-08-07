@@ -1,11 +1,11 @@
 {{ with .Site.Data.home.home_info }}
     {{ if .enable }}
-        <section class="site-cta">
+        <section class="site-info">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-center">
-                        <p> {{ .content }}</p>
-                        <ul class="site-cta-buttons">
+                        <h3 class="site-counter-item-title"> {{ .content }}</h3>
+                        <ul class="site-hero-content-buttons">
                             <a href="{{ .button_url | absURL }}" class="btn btn-primary">
                                 <span class="btn-area">
                                     <span data-text="{{ .button_label }}">
