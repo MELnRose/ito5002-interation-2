@@ -1,4 +1,4 @@
 enable: true
 content: "What you have in your superannuation at the time of your retirement will directly impact your quality of life. Different people have different needs so gaining an understanding of what each lifestyle looks like is important."
 button_label: "Find out more"
-button_url: '/resources'
+button_url: 'resources'
