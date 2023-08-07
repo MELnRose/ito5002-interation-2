@@ -1,7 +1,7 @@
 enable: true
 heading: "How much do you need?"
 ref: '2'
-counter_item:
+item:
   - title: "Comfortable Lifestyle (Couple)"
     number: "$690,000"
 

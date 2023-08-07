@@ -1,12 +1,7 @@
 {{ define "main" }}
 <!-- inser partial for header -->
-{{ partial "page-header.html" .Site.Data.resource_header }}
-<!-- comfortable -->
-{{ partial "site-expertise.html" .Site.Data.resources.retirement_lifestyle.comfortable}}
-<!-- modest -->
-{{ partial "site-expertise.html" .Site.Data.resources.retirement_lifestyle.modest}}
-<!-- pension -->
-{{ partial "site-expertise.html" .Site.Data.resources.retirement_lifestyle.pension}}
+{{ partial "page-header.html" . }}
+
 <!-- table -->
 <section class="site-blog-details">
     <div class="container">
@@ -16,5 +11,5 @@
     </div>
 </section>
 <!-- references -->
-{{ partial "references.html" .Site.Data.resources.retirement_lifestyle.references}}
+{{ partial "references.html" .Site.Data.resources.references}}
 {{ end }}

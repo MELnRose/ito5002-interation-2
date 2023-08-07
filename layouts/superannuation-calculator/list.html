@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "page-header.html" .Site.Data.super_header }}
+{{ partial "page-header.html" . }}
 
 <section class="site-super">
     <div class="container">
@@ -10,6 +10,6 @@
     </div>
 </section>
 
-{{ partial "disclaimer.html" .Site.Data.super_disclaimer }}
+{{ partial "disclaimer.html" .Site.Data.super.super_disclaimer }}
 
 {{ end }}

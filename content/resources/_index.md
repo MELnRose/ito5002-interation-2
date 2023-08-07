@@ -1,5 +1,5 @@
 ---
-title: Retirement Lifestyles"
+title: "Retirement Lifestyles"
 date: 2023-07-21T14:32:01+10:00
 description: "Discover what different lifestyle look like."
 ---

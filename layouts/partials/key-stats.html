@@ -1,4 +1,4 @@
-{{ with .Site.Data.counter }}
+{{ with .Site.Data.home.key_stats }}
   {{ if .enable }}
   <section class="site-counter" id="counter">
     <div class="container">
@@ -8,7 +8,7 @@
             <h2 class="text-white">{{ .heading }}<sup>{{ .ref }}</sup></h2>
           </div>
         </div>
-        {{ range .counter_item }}
+        {{ range .item }}
         <div class="col-lg-4 col-md-6">
           <div class="site-counter-item">
             <span class="site-counter-item-title">{{ .title }}</span>

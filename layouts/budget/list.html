@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{partial "page-header.html" .Site.Data.budget_header }}
+{{partial "page-header.html" . }}
 
 <section class="site-budget">
     <div class="container">
@@ -10,7 +10,7 @@
     </div>
 </section>
 
-{{ partial "disclaimer.html" .Site.Data.budget_disclaimer }}
+{{ partial "disclaimer.html" .Site.Data.budget.budget_disclaimer }}
 
 
 {{ end }}
