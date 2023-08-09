@@ -2,6 +2,89 @@
 <!-- inser partial for header -->
 {{ partial "page-header.html" . }}
 
+<!-- Javascript -->
+<script>
+    function health(){
+        document.getElementById('title').innerHTML = "Health Insurance";
+        document.getElementById('comfortable-text').innerHTML = "health text";
+        document.getElementById('modest-text').innerHTML = 'health text';
+        document.getElementById('age-pension-text').innerHTML = 'health text';
+    }
+    function connectivity(){
+        document.getElementById('title').innerHTML = "Phone and Internet";
+        document.getElementById('comfortable-text').innerHTML = "connectivity text";
+        document.getElementById('modest-text').innerHTML = 'connectivity text';
+        document.getElementById('age-pension-text').innerHTML = 'connectivity text';
+    }
+</script>
+
+<!-- grid 1 -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 d-flex justify-content-center"><h2 onclick=health()><i class="fa-solid fa-heart-pulse "></i></h2></div>
+            <div class="col-4 d-flex justify-content-center"><h2 onclick=connectivity()><i class="fa-solid fa-wifi"></i></h2></div>
+            <div class="col-4 d-flex justify-content-center"><h2><i class="fa-solid fa-car"></i></h2></div>
+            <div class="w-100"></div>
+            <div class="col-4 d-flex justify-content-center"><h2><i class="fa-solid fa-film"></i></h2></div>
+            <div class="col-4 d-flex justify-content-center"><h2><i class="fa-solid fa-house"></i></h2></div>
+            <div class="col-4 d-flex justify-content-center"><h2><i class="fa-solid fa-scissors"></i></h2></div>
+            <div class="w-100"></div>
+            <div class="col-4 d-flex justify-content-center"><h2><i class="fa-solid fa-file-invoice-dollar"></i></h2></div>
+            <div class="col-4 d-flex justify-content-center"><h2><i class="fa-solid fa-utensils"></i></h2></div>
+            <div class="col-4 d-flex justify-content-center"><h2><i class="fa-solid fa-shirt"></i></h2></div>
+            <div class="w-100"></div>
+            <div class="col-4 d-flex justify-content-center"></div>
+            <div class="col-4 d-flex justify-content-center"><h2><i class="fa-solid fa-plane"></i></h2></div>
+            <div class="col-4 d-flex justify-content-center"></div>
+        </div>
+    </div>
+</section>
+
+<!-- grid 2 -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h1 id="title"></h1>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-7">
+                <div class="row">
+                    <div>
+                        <div class="resource-lifestyle-heading">
+                            <h3>Comfortable</h3>
+                        </div>
+                        <div>
+                            <p id="comfortable-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="resource-lifestyle-heading">
+                            <h3>Modest</h3>
+                        </div>
+                        <div>
+                            <p id="modest-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="resource-lifestyle-heading">
+                            <h3>Age Pension</h3>
+                        </div>
+                        <div>
+                            <p id="age-pension-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- table -->
 <section class="site-blog-details">
     <div class="container">
