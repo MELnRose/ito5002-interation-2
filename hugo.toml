@@ -7,18 +7,34 @@ theme = 'roxo-hugo'
 [menu]
     #Navbar Menus
     [[menu.nav]]
+        identifier = 'home'
         name = 'Home'
         url = ''
         weight = 1
     [[menu.nav]]
+        identifier = 'super-calc'
         name = 'Superannuation Calculator'
         url = 'superannuation-calculator'
         weight = 2
     [[menu.nav]]
+        identifier = 'budget'
         name = 'Budgeting'
         url = 'budget'
         weight = 3
     [[menu.nav]]
+        identifier = 'more-info'
+        name = 'More Information'
+        url = 'more-info'
+        weight = 4
+    [[menu.nav]]
+        identifier = 'resources'
         name = 'Resources'
         url = 'resources'
-        weight = 4
+        weight = 1
+        parent = 'more-info'
+    [[menu.nav]]
+        identifier = 'lifestyles'
+        name = 'Retirement Lifestyles'
+        url = 'retirement-lifestyles'
+        weight = 2
+        parent = 'more-info'
