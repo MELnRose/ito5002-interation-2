@@ -89,4 +89,45 @@
   .logo{
     color: $primary-color;
   }
+
+  .nav-dropdown{
+    float: right;
+    overflow: hidden;
+
+    &-content{
+      display: none;
+      position: absolute;
+      background-color: $white;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+    }
+    
+    &-item{
+      @include desktop{
+        text-align: center;
+      }
+    }
+
+    ul{
+      position: absolute;
+    }
+
+    li{
+      position: relative;
+    }
+  }
+
+  .nav-dropdown:hover .nav-dropdown-content {
+    display: block;
+    
+  }
+
+  .nav-link-top{
+    a{
+      display: inline-block;  /* For IE11/ MS Edge bug */
+      pointer-events: none;
+      text-decoration: none;
+    }
+  }
+
 }
