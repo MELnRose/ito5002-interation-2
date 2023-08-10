@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'SuperWoman'
 theme = 'roxo-hugo'
 
+[params.csp]
+  childsrc = ["'self'", "https://amret.shinyapps.io/BudgetTool/", "https://daveywavey.shinyapps.io/Supercalculatorfinal/"]
+  fontsrc = ["'self'", "https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:300,400,500,600,700&display=swap"]
+  scriptsrc = ["'self'", "'unsafe-inline'"]
+
 #site menu
 [menu]
     #Navbar Menus

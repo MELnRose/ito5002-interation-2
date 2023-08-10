@@ -24,5 +24,7 @@
   <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
 
-
+  <!-- Content Security Policy-->
+    <meta charset="utf-8">
+    {{ partialCached "csp.html" . }}</head>
 </head>
