@@ -1,0 +1,51 @@
+enable: true
+health:
+  title: 'Health Insurance'
+  comfortable: ''
+  modest: ''
+  pension: ''
+connectivity:
+  title: 'Phone and Internet'
+  comfortable: ''
+  modest: ''
+  pension: ''
+transport:
+  title: 'Transport'
+  comfortable: ''
+  modest: ''
+  pension: ''
+leisure:
+  title: 'Leisure'
+  comfortable: ''
+  modest: ''
+  pension: ''
+house:
+  title: 'House'
+  comfortable: ''
+  modest: ''
+  pension: ''
+haircut:
+  title: 'Haircuts'
+  comfortable: ''
+  modest: ''
+  pension: ''
+utilities:
+  title: 'Utilities'
+  comfortable: ''
+  modest: ''
+  pension: ''
+takeaway:
+  title: 'Dining'
+  comfortable: ''
+  modest: ''
+  pension: ''
+clothes:
+  title: 'Clothes'
+  comfortable: ''
+  modest: ''
+  pension: ''
+travel:
+  title: 'Travel'
+  comfortable: ''
+  modest: ''
+  pension: ''
