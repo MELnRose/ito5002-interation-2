@@ -1,0 +1,168 @@
+{{ if .enable }}
+    <!-- Javascript -->
+    <script>
+        function initialise(){
+            output.style.display = 'block';
+            output.style.background = '#EAA4A4';
+            output.style.padding = '35px 0';
+        }
+
+        function health(){
+            initialise();
+            {{ with .health }}
+            document.getElementById('title').innerHTML = '{{ .title }}';
+            document.getElementById('comfortable-text').innerHTML = '{{ .comfortable }}';
+            document.getElementById('modest-text').innerHTML = '{{ .modest }}';
+            document.getElementById('age-pension-text').innerHTML = '{{ .pension }}';
+            {{ end }}
+        }
+        function connectivity(){
+            initialise();
+            {{ with .connectivity }}
+            document.getElementById('title').innerHTML = '{{ .title }}';
+            document.getElementById('comfortable-text').innerHTML = '{{ .comfortable }}';
+            document.getElementById('modest-text').innerHTML = '{{ .modest }}';
+            document.getElementById('age-pension-text').innerHTML = '{{ .pension }}';
+            {{ end }}
+        }
+        function transport(){
+            initialise();
+            {{ with .transport }}
+            document.getElementById('title').innerHTML = '{{ .title }}';
+            document.getElementById('comfortable-text').innerHTML = '{{ .comfortable }}';
+            document.getElementById('modest-text').innerHTML = '{{ .modest }}';
+            document.getElementById('age-pension-text').innerHTML = '{{ .pension }}';
+            {{ end }}
+        }
+        function leisure(){
+            initialise();
+            {{ with .leisure }}
+            document.getElementById('title').innerHTML = '{{ .title }}';
+            document.getElementById('comfortable-text').innerHTML = '{{ .comfortable }}';
+            document.getElementById('modest-text').innerHTML = '{{ .modest }}';
+            document.getElementById('age-pension-text').innerHTML = '{{ .pension }}';
+            {{ end }}
+        }
+        function house(){
+            initialise();
+            {{ with .house }}
+            document.getElementById('title').innerHTML = '{{ .title }}';
+            document.getElementById('comfortable-text').innerHTML = '{{ .comfortable }}';
+            document.getElementById('modest-text').innerHTML = '{{ .modest }}';
+            document.getElementById('age-pension-text').innerHTML = '{{ .pension }}';
+            {{ end }}
+        }
+        function haircut(){
+            initialise();
+            {{ with .haircut }}
+            document.getElementById('title').innerHTML = '{{ .title }}';
+            document.getElementById('comfortable-text').innerHTML = '{{ .comfortable }}';
+            document.getElementById('modest-text').innerHTML = '{{ .modest }}';
+            document.getElementById('age-pension-text').innerHTML = '{{ .pension }}';
+            {{ end }}
+        }
+        function utilities(){
+            initialise();
+            {{ with .utilities }}
+            document.getElementById('title').innerHTML = '{{ .title }}';
+            document.getElementById('comfortable-text').innerHTML = '{{ .comfortable }}';
+            document.getElementById('modest-text').innerHTML = '{{ .modest }}';
+            document.getElementById('age-pension-text').innerHTML = '{{ .pension }}';
+            {{ end }}
+        }
+        function takeaway(){
+            initialise();
+            {{ with .takeaway }}
+            document.getElementById('title').innerHTML = '{{ .title }}';
+            document.getElementById('comfortable-text').innerHTML = '{{ .comfortable }}';
+            document.getElementById('modest-text').innerHTML = '{{ .modest }}';
+            document.getElementById('age-pension-text').innerHTML = '{{ .pension }}';
+            {{ end }}
+        }
+        function clothes(){
+            initialise();
+            {{ with .clothes }}
+            document.getElementById('title').innerHTML = '{{ .title }}';
+            document.getElementById('comfortable-text').innerHTML = '{{ .comfortable }}';
+            document.getElementById('modest-text').innerHTML = '{{ .modest }}';
+            document.getElementById('age-pension-text').innerHTML = '{{ .pension }}';
+            {{ end }}
+        }
+        function travel(){
+            initialise();
+            {{ with .travel }}
+            document.getElementById('title').innerHTML = '{{ .title }}';
+            document.getElementById('comfortable-text').innerHTML = '{{ .comfortable }}';
+            document.getElementById('modest-text').innerHTML = '{{ .modest }}';
+            document.getElementById('age-pension-text').innerHTML = '{{ .pension }}';
+            {{ end }}
+        }
+    </script>
+
+    <!-- grid 1 -->
+    <section class="lifestyle-selector">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 d-flex justify-content-center"><h2 onclick=health()><i class="fa-solid fa-heart-pulse "></i></h2></div>
+                <div class="col-4 d-flex justify-content-center"><h2 onclick=connectivity()><i class="fa-solid fa-wifi"></i></h2></div>
+                <div class="col-4 d-flex justify-content-center"><h2 onclick=transport()><i class="fa-solid fa-car"></i></h2></div>
+                <div class="w-100"></div>
+                <div class="col-4 d-flex justify-content-center"><h2 onclick=leisure()><i class="fa-solid fa-film"></i></h2></div>
+                <div class="col-4 d-flex justify-content-center"><h2 onclick=house()><i class="fa-solid fa-house"></i></h2></div>
+                <div class="col-4 d-flex justify-content-center"><h2 onclick=haircut()><i class="fa-solid fa-scissors"></i></h2></div>
+                <div class="w-100"></div>
+                <div class="col-4 d-flex justify-content-center"><h2 onclick=utilities()><i class="fa-solid fa-file-invoice-dollar"></i></h2></div>
+                <div class="col-4 d-flex justify-content-center"><h2 onclick=takeaway()><i class="fa-solid fa-utensils"></i></h2></div>
+                <div class="col-4 d-flex justify-content-center"><h2 onclick=clothes()><i class="fa-solid fa-shirt"></i></h2></div>
+                <div class="w-100"></div>
+                <div class="col-4 d-flex justify-content-center"></div>
+                <div class="col-4 d-flex justify-content-center"><h2 onclick=travel()><i class="fa-solid fa-plane"></i></h2></div>
+                <div class="col-4 d-flex justify-content-center"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- grid 2 -->
+    <section class="lifestyle-output" id="output">
+        <div class="container" id="text">
+            <div class="row">
+                <div class="col-4">
+                    <h1 class="text-white" id="title"></h1>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-7">
+                    <div class="row">
+                        <div>
+                            <div class="resource-lifestyle-heading">
+                                <h3 class="text-white">Comfortable</h3>
+                            </div>
+                            <div>
+                                <p id="comfortable-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <div class="resource-lifestyle-heading">
+                                <h3 class="text-white">Modest</h3>
+                            </div>
+                            <div>
+                                <p id="modest-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <div class="resource-lifestyle-heading">
+                                <h3 class="text-white">Age Pension</h3>
+                            </div>
+                            <div>
+                                <p id="age-pension-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
