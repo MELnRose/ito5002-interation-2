@@ -1,7 +1,7 @@
 ---
-title: "Budget"
+title: "Budgeting"
 date: 2023-07-21T14:31:38+10:00
-description: "Use this tool to compare your spending against the average Australian."
+description: "Compare your spending with the average Australian, and find savings to increase your super."
 ---
 
 {{< shinyapps "https://amret.shinyapps.io/BudgetTool_v2/" 1800 >}}
