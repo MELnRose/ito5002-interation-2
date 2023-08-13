@@ -1,9 +1,19 @@
 .lifestyle-selector{
     padding: 75px 0;
+    &-button{
+        cursor: pointer;
+    }
+
+    h5{
+        text-align: center;
+    }
 }
 
 .lifestyle-output{
     padding: 0;
     background: $white;
     display: none;
+    p{
+        color: $white;
+    }
 }

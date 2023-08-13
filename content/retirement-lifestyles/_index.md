@@ -1,7 +1,7 @@
 ---
 title: "Retirement Lifestyles"
 date: 2023-07-21T14:32:01+10:00
-description: "Discover what different lifestyle look like."
+description: "Click the icons to discover what different retirement lifestyles look like."
 ---
 
 | Comfortable lifestyle | Modest lifestyle | Age Pension |

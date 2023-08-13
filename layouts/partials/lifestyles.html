@@ -148,21 +148,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-1 d-flex justify-content-center"></div>
-                <div class="col-2 d-flex justify-content-center"><h2 onclick=health()><i class="fa-solid fa-heart-pulse "></i></h2></div>
-                <div class="col-2 d-flex justify-content-center"><h2 onclick=connectivity()><i class="fa-solid fa-wifi"></i></h2></div>
-                <div class="col-2 d-flex justify-content-center"><h2 onclick=transport()><i class="fa-solid fa-car"></i></h2></div>
-                <div class="col-2 d-flex justify-content-center"><h2 onclick=leisure()><i class="fa-solid fa-film"></i></h2></div>
-                <div class="col-2 d-flex justify-content-center"><h2 onclick=house()><i class="fa-solid fa-house"></i></h2></div>
+                <div class="col-2 d-flex justify-content-center lifestyle-selector-button">
+                    <h5 onclick=health()><i class="fa-solid fa-heart-pulse"></i> {{ .health.title }}</h5>
+                </div>
+                <div class="col-2 d-flex justify-content-center lifestyle-selector-button">
+                    <h5 onclick=utilities()><i class="fa-solid fa-file-invoice-dollar"></i> {{ .utilities.title }}</h5>
+                </div>
+                <div class="col-2 d-flex justify-content-center lifestyle-selector-button">
+                    <h5 onclick=connectivity()><i class="fa-solid fa-wifi"></i> {{ .connectivity.title }}</h5>
+                </div>
+                <div class="col-2 d-flex justify-content-center lifestyle-selector-button">
+                    <h5 onclick=house()><i class="fa-solid fa-house"></i> {{ .house.title }}</h5>
+                </div>
+                <div class="col-2 d-flex justify-content-center lifestyle-selector-button">
+                    <h5 onclick=takeaway()><i class="fa-solid fa-utensils"></i> {{ .takeaway.title }}</h5>
+                </div>
                 <div class="col-1 d-flex justify-content-center"></div>
                 <div class="w-100"></div>
                 <div class="col-1 d-flex justify-content-center"></div>
-                <div class="col-2 d-flex justify-content-center"><h2 onclick=haircut()><i class="fa-solid fa-scissors"></i></h2></div>
-                <div class="col-2 d-flex justify-content-center"><h2 onclick=utilities()><i class="fa-solid fa-file-invoice-dollar"></i></h2></div>
-                <div class="col-2 d-flex justify-content-center"><h2 onclick=takeaway()><i class="fa-solid fa-utensils"></i></h2></div>
-                <div class="col-2 d-flex justify-content-center"><h2 onclick=clothes()><i class="fa-solid fa-shirt"></i></h2></div>
-                <div class="col-2 d-flex justify-content-center"><h2 onclick=travel()><i class="fa-solid fa-plane"></i></h2></div>
+                <div class="col-2 d-flex justify-content-center lifestyle-selector-button">
+                    <h5 onclick=clothes()><i class="fa-solid fa-shirt"></i> {{ .clothes.title }}</h5>
+                </div>
+                <div class="col-2 d-flex justify-content-center lifestyle-selector-button">
+                    <h5 onclick=haircut()><i class="fa-solid fa-scissors"></i> {{ .haircut.title }}</h5>
+                </div>
+                <div class="col-2 d-flex justify-content-center lifestyle-selector-button">
+                    <h5 onclick=transport()><i class="fa-solid fa-car"></i> {{ .transport.title }}</h5>
+                </div>
+                <div class="col-2 d-flex justify-content-center lifestyle-selector-button">
+                    <h5 onclick=leisure()><i class="fa-solid fa-film"></i> {{ .leisure.title }}</h5>
+                </div>
+                <div class="col-2 d-flex justify-content-center lifestyle-selector-button">
+                    <h5 onclick=travel()><i class="fa-solid fa-plane"></i> {{ .travel.title }}</h5>
+                </div>
                 <div class="col-1 d-flex justify-content-center"></div>
             </div>
         </div>
     </section>
+
 {{ end }}
