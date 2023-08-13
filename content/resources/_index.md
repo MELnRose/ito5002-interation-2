@@ -1,11 +1,11 @@
 ---
 title: "Resources"
 date: 2023-07-21T14:32:01+10:00
-description: "Further information that may assist you to increase your super balance at retirement."
+description: ""
 ---
 
 ## External resources
-This section provides further information that may assist you to increase your super return at retirement
+Further information that may assist you to increase your super balance at retirement.
 ### Super Guru
 [Super Guru](https://www.superguru.com.au/)
 
@@ -26,6 +26,9 @@ This Australian Tax Office site provides an overview of fund types and access to
 You may have unclaimed super due to multiple accounts that you may have forgotten about. 
 
 This Australian Tax Office site can help you find any lost super you may have and consolidate the funds into a single account to potentially maximise super returns.
+
+{{< spacer "30px" >}}
+
 ## Understand the super gender gap
 Research and information about the gender gap in super
 
@@ -53,4 +56,4 @@ Please contact National Debt Helpline on [1300 771 741](tel:1300771741)
 
 If you require crisis support please contact your local crisis centre. 
 
-In Australia, you can contact lifeline 24/7 on  [13 11 14](tel:131114)
+In Australia, you can contact Lifeline 24/7 on  [13 11 14](tel:131114)
