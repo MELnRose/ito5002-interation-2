@@ -76,8 +76,19 @@
       .feature-image{
         margin: 20px 0 30px;
       }
-      h2,h3,h4,h5,h6{
+      h2,h3,h5,h6{
         margin-bottom: 15px;
+        a{
+          color: $text-color-dark;
+        }
+        a:hover{
+          text-decoration: underline;
+          color: $primary-color;
+        }
+      }
+      h4{
+        color: $primary-color;
+        font-family: $primary-font;
       }
       blockquote{
         p{
@@ -96,6 +107,11 @@
       th, td{
         border: 1px solid;
         padding: 5px;
+      }
+      p{
+        a{
+          color: $primary-color;
+        }
       }
     }
   }
