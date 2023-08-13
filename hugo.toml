@@ -35,11 +35,11 @@ theme = 'roxo-hugo'
         identifier = 'resources'
         name = 'Resources'
         url = 'resources'
-        weight = 1
+        weight = 2
         parent = 'more-info'
     [[menu.nav]]
         identifier = 'lifestyles'
         name = 'Retirement Lifestyles'
         url = 'retirement-lifestyles'
-        weight = 2
+        weight = 1
         parent = 'more-info'

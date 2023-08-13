@@ -5,11 +5,12 @@ sitemap:
       url: "superannuation-calculator"
 
     - name: "Budgeting"
-      url: "budget"
+      url: "budget"    
 
+    - name: "Retirement Lifestyles"
+      url: "retirement-lifestyles"
+      
     - name: "Resources"
       url: "resources"
 
-service:
-  title: "Here to inform you"
-  description: "project you super<br>see your expendature<br>understand retirement"
+
